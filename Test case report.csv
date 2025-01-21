@@ -1,0 +1,9 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To
+TC-001,Measure initial page load speed,Load the page and measure time using dev tools,Page loads within 2 seconds,Page loads in 1.6 seconds,Passed,Low,N/A
+TC-002,Check layout on different screen sizes,Resize browser and inspect UI elements,Layout adjusts without breaking,Layout adjusts correctly,Passed,Low,N/A
+TC-003,Test search input with various queries,Enter search terms and observe results,Relevant results are displayed,Correct results are shown,Passed,Medium,N/A
+TC-004,Verify navigation links work correctly,Click each navigation link and check redirections,Correct pages are loaded,All links navigate correctly,Passed,Low,N/A
+TC-005,Ensure proper sliding and navigation,Interact with carousel buttons,Slides transition smoothly,Smooth transitions observed,Passed,Low,N/A
+TC-006,"Evaluate contrast, labels, and ARIA roles",Run accessibility audit via Lighthouse,Passes accessibility score above 90,Accessibility score: 90,Passed,Medium,N/A
+TC-007,Validate proper use of meta tags,Inspect meta tags in HTML,Proper tags for SEO present,All required tags are present,Passed,Low,N/A
+TC-008,Check validation for required fields,Submit forms with and without required fields,Error messages displayed for missing fields,Validation messages appear,Passed,High,N/A

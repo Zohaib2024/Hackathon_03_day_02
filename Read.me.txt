@@ -1,0 +1,86 @@
+# Hackathon-Three Grocery Store Project
+
+This project is a **Grocery Store Web Application** built using **Next.js** and **Sanity.io** as the headless CMS. The application includes various pages and components to provide a seamless shopping experience.
+
+## 📂 Folder Structure
+
+hackathon-three/ 
+│-- src/ │ ├── app/
+│ │ ├── checkout/
+│ │ │ └── page.tsx # Checkout page for order processing
+│ │ ├── components/ # Reusable UI components 
+│ │ │ ├── Cart.tsx # Shopping cart component 
+│ │ │ ├── Footer.tsx # Footer section 
+│ │ │ ├── Header.tsx # Header section 
+│ │ │ ├── Heading.tsx # Heading component 
+│ │ │ ├── Slider.tsx # Image slider component
+│ │ │ └── Wrapper.tsx # Layout wrapper component 
+│ │ ├── products/ # Dynamic product pages 
+│ │ │ └── [slug]/ # Dynamic route for product details 
+│ │ ├── login/ # User login page (to be implemented) 
+│ ├── lib/ # Utility functions and API services 
+│ ├── studio/ # Sanity Studio for content management 
+│ ├── favicon.ico # Favicon for the project 
+│ ├── globals.css # Global styles for the application 
+│ ├── layout.tsx # Main layout file for pages 
+│ ├── page.tsx # Main entry page of the application
+│ ├── storeProvider.tsx # State management and store setup 
+│-- sanity/ # Sanity.io related configuration and schemas
+│-- .env.local # Environment variables (API keys, etc.)
+│-- .gitignore # Files and folders to ignore in Git 
+│-- README.md # Project documentation (this file)
+
+
+---
+
+## 🚀 Technologies Used
+
+- **Next.js** – For building the frontend.
+- **Sanity.io** – As a headless CMS to manage content.
+- **TypeScript** – For type safety.
+- **Tailwind CSS** (if applicable) – For styling.
+- **React Redux** – For state management 
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-repo/hackathon-three.git
+   cd hackathon-three
+
+---
+
+📋 Features
+Dynamic product pages with slugs.
+User authentication (login page).
+Shopping cart functionality.
+Integration with Sanity.io for product management.
+Responsive UI with reusable components.
+
+---
+
+📄 To-Do List
+Implement authentication and user roles.
+Add checkout process improvements.
+Improve performance using lazy loading and caching.
+Write unit tests with Jest/React Testing Library.
+
+---
+
+🤝 Contributing
+Feel free to fork this repository and submit pull requests for improvements.
+
+---
+
+This README provides a structured summary of your project's goals, folder structure, technologies, setup instructions, and future improvements. Let me know if you'd like to customize it further!
+
+
+
+
+
+
+
+
+
